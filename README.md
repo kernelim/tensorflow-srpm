@@ -1,2 +1,2 @@
 # tensorflow-srpm
-SRPM file for the build for TensorFlow's PIP package
+SRPM file for the build of TensorFlow's PIP package
