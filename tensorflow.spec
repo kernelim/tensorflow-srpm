@@ -1,6 +1,6 @@
 Name:           tensorflow
-Version:        0.7.1
-Release:        1.alonid%{?dist}
+Version:        0.8.0
+Release:        1.20160419.alonid%{?dist}
 Summary:        test
 License:        Apache License 2.0
 URL:            http://www.tensorflow.org/
@@ -24,7 +24,7 @@ test
 %prep
 
 [ ! -d tensorflow ] && \
-    git clone --depth 1 --recursive https://github.com/tensorflow/tensorflow.git -b v0.7.1
+    git clone --depth 1 --recursive https://github.com/tensorflow/tensorflow.git -b r0.8
 
 cd tensorflow
 echo -e '\nn' | ./configure
